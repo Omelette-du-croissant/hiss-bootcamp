@@ -26,8 +26,8 @@ def game():
     print("Welcome to Treasure Island.")
     print("Your mission is to find the treasure.") 
     print('You\'re at a crossroad. Where do you want to go?\n')
-    cross = input()
 
+    cross = input()
     if cross == 'right':
         print("You fell down a rabbit hole! Game Over.")
         return 
@@ -48,8 +48,6 @@ def game():
                     return 
                   elif door == 'yellow':
                     print('You found the treasure! You Win.')
-                  
-                  #door reloop
                   
                   else:
                     door = input('You chose a door that doesn\'t exist. Try again.')
@@ -94,7 +92,6 @@ def game():
                             print('You found the treasure! You Win.')
                             return
                 
-
     else:
         cross = input('There is no turning back. Do you want to go right or left?\n')
         if cross == 'right':
