@@ -161,6 +161,8 @@ def game():
 
 while input('Do you want to play a game? [y/n]\n') == 'y':
     game()
+    break      
+    
 
 
 
