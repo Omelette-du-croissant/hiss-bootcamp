@@ -1,6 +1,7 @@
 import random
 
-word_list = ["aardvark","camel","baboon"]
+word_list = []
+#import list or add words
 
 def get_word():
   word = random.choice(word_list)
