@@ -22,12 +22,12 @@ for key, value in operations.items() :
     print (key)
 
 def calculator():
-  num1= int(input("What's the first number?: "))
+  num1= float(input("What's the first number?: "))
   continue_flag = True
 
   while continue_flag:
     operation_operator = input("Pick an operation: ")
-    num2 = int(input("What's the second number?: "))
+    num2 = float(input("What's the second number?: "))
     calc = operations[operation_operator]
     answer = calc(num1, num2)
 
@@ -43,13 +43,13 @@ def calculator():
           restart_flag = False
   
         else:
-          num1= int(input("What's the first number?: "))
+          num1= float(input("What's the first number?: "))
           for operator in operations:
             continue_flag = True
 
             while continue_flag:
               operation_operator = input("Pick an operation: ")
-              num2 = int(input("What's the second number?: "))
+              num2 = float(input("What's the second number?: "))
               calc = operations[operation_operator]
               answer = calc(num1, num2)
 
