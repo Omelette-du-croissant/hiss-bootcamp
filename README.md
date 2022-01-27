@@ -1,5 +1,6 @@
-# hiss-bootcamp
-100 Days of Code: Python
+# Python Bootcamp Projects
 
-100 Days of Code: Python Bootcamp daily projects.
-Instructor: Angela Yu.
+## Description
+  
+  This repository includes 100 Days of Code: Python Bootcamp daily projects.
+  
